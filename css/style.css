@@ -1,0 +1,149 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+ #block-menu-menu-login .block-title
+ {
+ 	display: none;
+ }
+
+#block-menu-menu-login ul
+{
+	float: right;
+}
+
+#block-system-user-menu .block-title
+{
+	display: none;
+}
+#block-system-user-menu ul
+{
+	float: right;
+}
+#block-system-user-menu ul .leaf
+{
+	float: left;
+}
+.field.field-name-field-imagen img {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+/***galeria**-***/
+.page-galeria .views-field-field-imagen
+{
+	max-height: 100px;
+	overflow: hidden;
+}
+.page-galeria .views-field-field-imagen img
+{
+	width: 100%;
+	height: auto;
+
+}
+
+
+
+.page-galeria .views-field-title,
+.page-galeria .views-field-php
+{
+	text-align: center;
+}
+
+/*documentos*/
+#block-views-exp-documentos-page .views-exposed-widgets
+{
+	text-align: center;
+}
+#block-views-exp-documentos-page #edit-field-categoria-tid-wrapper
+{
+	display: inline-block;
+	float: none;
+}
+#block-views-exp-documentos-page .views-exposed-form .form-item
+{
+	display: inline ! important;
+	text-align: center;
+}
+#block-views-exp-documentos-page .views-exposed-form .form-item a
+{
+	
+	margin-right: 2px;
+	float:left;
+	padding: 6px 12px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.42857;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	text-decoration: none;
+	background-image: none;
+	border: 1px solid #357EBD;
+	border-radius: 4px;
+	-moz-user-select: none;
+}
+#block-views-exp-documentos-page .views-exposed-form .form-item .active
+{
+	background-color: rgba(66, 139, 202, 0.19);
+	font-weight: bolder;
+}
+.page-documentos .col
+{
+	min-height: 144px;
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid;
+
+	margin-bottom: 11px;
+	margin-right: 5.5px;
+	margin-left: 5.5px;
+}
+.page-documentos .views-field-php
+	{
+
+		position: absolute;
+	    bottom: 30px;
+	    
+	}
+@media(min-width: 1200px){
+	.page-documentos .col
+	{
+		width: 32% !important;
+	}
+	.page-documentos .views-field-php
+	{
+		left: 40%;
+	}
+}
+@media(max-width: 1199px){
+	
+	.page-documentos .views-field-php
+	{
+		left: 45%;
+	}
+}	
+.page-documentos .views-field-php img
+{
+	width: 54px;
+}
+.page-documentos .views-field-filesize 
+
+{
+    position: absolute;
+	bottom: 3px;
+	right: 11px;
+    font-weight: bolder;
+}
+.page-documentos .views-field-timestamp
+
+{
+	position: absolute;
+	bottom: 3px;
+	left: 11px;
+}
+
