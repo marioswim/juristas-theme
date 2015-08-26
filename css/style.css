@@ -2,12 +2,125 @@
  * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
  * remove this comment and start adding your styles to this file.
  */
+ body
+ {
+ 	/*background: rgba(154,179,9,0.27);*/
+
+ }
+ a
+ {
+ 	color: rgb(159,174,9);
+ }
+ a:hover
+ {
+ 	color:#F4DC00;
+ }
+ a:visited
+ {
+ 	color:#6D6DA1;
+ }
+ .views-more-link
+ {
+ 	font-weight: bolder;
+ 	font-size: 1.1em;
+ }
+ #top_bar
+ {
+ 	float: right;
+ 	position: absolute;
+ 	top: 0px;
+ 	right: 0px;
+ }
+ #top_bar .menu a:hover
+ {
+ 	background-color: transparent !important;
+ 	font-weight: bolder;
+ 	
+ }
+
+ #navbar
+ {
+ 	margin-top: 0px;
+ }
+ .homepage
+ {
+ 	height: auto;
+ 	width: 40px;
+ 	padding-top: 4px;
+ 	margin-left: 4px;
+ 	margin-right: 4px;
+ }
+ .homepage:hover
+ {
+ 	content: url("/sites/all/themes/juristas/icon/hover.png");
+ }
  #block-menu-menu-login .block-title
  {
  	display: none;
  }
 
-#block-menu-menu-login ul
+@media(min-width:991px ){
+	.name
+	{
+	    position: relative;
+	    top: 83px;
+	    left: -450px;
+	    text-align: center;
+	    color: white !important;
+	    font-size: 20px;
+	}
+	.logo img
+	{
+		height: auto;
+	    width: 510px;
+	}
+}
+
+@media (min-width:770px) and (max-width: 990px){
+	
+	.name 
+	{
+	    position: relative;
+	    top: 56px;
+	    left: -342px;
+	    /* width: 210px; */
+	    font-size: 16px;
+	    text-align: center;
+	    color: white !important;
+	}
+	.logo img
+	{
+		height: auto;
+	    width: 372px;
+	}
+}
+@media(max-width: 769px){
+	 .logo 
+	{
+		display: none;
+	}
+	.name
+	{
+		margin-top: 5px;
+		color:black!important;
+	}
+
+}
+
+.navbar-nav .active
+{
+	background-color: transparent !important;
+}
+.navbar-nav .open>a,
+.navbar-nav .active-trail
+{
+	background-color: rgba(154,179,9,0.2) !important;
+}
+.navbar-nav .active-trail .active
+{
+	color:black;
+}
+#block-menu-menu-login div
 {
 	float: right;
 }
@@ -29,7 +142,10 @@
     height: auto;
     float: left;
 }
-
+.front .page-header
+{
+	
+}
 /***galeria**-***/
 .page-galeria .views-field-field-imagen
 {
@@ -67,29 +183,33 @@
 	text-align: center;
 }
 #block-views-exp-documentos-page .views-exposed-form .form-item a
-{
-	
+{	
+	/*background-color: rgba(255, 255, 255, 0.64);*/
+
 	margin-right: 2px;
 	float:left;
 	padding: 6px 12px;
 	margin-top: 5px;
 	margin-bottom: 0px;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: normal;
 	line-height: 1.42857;
 	text-align: center;
+	/*color: rgb(154,179,9);*/
 	white-space: nowrap;
 	vertical-align: middle;
 	cursor: pointer;
 	text-decoration: none;
 	background-image: none;
-	border: 1px solid #357EBD;
-	border-radius: 4px;
+	border: 1px solid rgb(159,174,9);
+	border-radius: 10px;
 	-moz-user-select: none;
 }
+
 #block-views-exp-documentos-page .views-exposed-form .form-item .active
 {
-	background-color: rgba(66, 139, 202, 0.19);
+	/*background-color: rgba(66, 139, 202, 0.19);*/
+	background-color: rgba(154,179,9,0.1);
 	font-weight: bolder;
 }
 .page-documentos .col
@@ -97,8 +217,8 @@
 	min-height: 144px;
 	padding: 10px;
 	border-radius: 20px;
-	border: 1px solid;
-
+	border: 1px solid rgb(159,174,9);
+	background-color: rgba(154,179,9,0.1);
 	margin-bottom: 11px;
 	margin-right: 5.5px;
 	margin-left: 5.5px;
@@ -147,3 +267,60 @@
 	left: 11px;
 }
 
+/*--------Jornadas portada---------*/
+
+#block-views-jornadas-block-1 .col
+{
+	text-align: center;
+}
+#block-views-jornadas-block-1 .views-field-field-imagen
+{
+	margin-top: 20px;
+}
+#block-views-jornadas-block-1 .views-field-field-fecha,
+#block-views-jornadas-block-1 .views-field-field-hora
+{
+	font-weight: bolder;
+	margin-top: 5px;
+}/**---------------Noticias Portada--------------*/
+#block-views-igualdad-y-coeducaci-n-block-1 .col
+{
+	margin-bottom: 15px;
+}
+#block-views-igualdad-y-coeducaci-n-block-1 .views-field-title
+{
+	font-weight: bolder;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+#block-views-igualdad-y-coeducaci-n-block-1 .views-field-body,
+{
+	font-size: 1.2em !important;
+	text-align: justify;
+}
+
+/*-----articulos------*/
+
+.page-node- .field-name-field-categoria .field-items a
+{	
+	/*background-color: rgba(255, 255, 255, 0.64);*/
+
+	margin-right: 2px;
+	float:left;
+	padding: 6px 12px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 1.42857;
+	text-align: center;
+	/*color: rgb(154,179,9);*/
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	text-decoration: none;
+	background-image: none;
+	border: 1px solid rgb(159,174,9);
+	border-radius: 10px;
+	-moz-user-select: none;
+}
