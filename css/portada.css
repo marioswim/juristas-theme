@@ -1,0 +1,60 @@
+/*--------Jornadas portada---------*/
+
+#block-views-jornadas-block-1 .col
+{
+	text-align: center;
+}
+#block-views-jornadas-block-1 .views-field-field-imagen
+{
+	margin-top: 20px;
+}
+#block-views-jornadas-block-1 .views-field-field-fecha,
+#block-views-jornadas-block-1 .views-field-field-hora
+{
+	font-weight: bolder;
+	margin-top: 5px;
+}/**---------------Noticias Portada--------------*/
+#block-views-igualdad-y-coeducaci-n-block-1 .col
+{
+	margin-bottom: 15px;
+}
+#block-views-igualdad-y-coeducaci-n-block-1 .views-field-title
+{
+	font-weight: bolder;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+#block-views-igualdad-y-coeducaci-n-block-1 .views-field-body
+{
+	font-size: 1.2em !important;
+	text-align: justify;
+}
+
+/*---Carrusel----*/
+#block-views-carrusel-block-1 
+{
+	margin-bottom: 15px;		
+}
+#block-views-carrusel-block-1 .views-field-field-imagen
+{
+	text-align: center;
+}
+#block-views-carrusel-block-1 .views-field-field-imagen img
+{
+	width: 100%;
+	height: auto;
+	max-width: 800px;
+}
+#block-views-carrusel-block-1 .carousel-control
+{
+	background-image: none;
+	color:rgba(154,179,9,0.27);
+}
+#block-views-carrusel-block-1 .carousel-indicators li
+{
+	border: 1px solid rgba(154,179,9,1);
+}
+#block-views-carrusel-block-1 .carousel-indicators .active
+{
+	background-color: rgba(154,179,9,1);
+}

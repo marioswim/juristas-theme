@@ -26,6 +26,10 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/portada.css
+stylesheets[all][] = css/galeria.css
+stylesheets[all][] = css/documentos.css
+stylesheets[all][] = css/noticias.css
 
 
 ; For information on choosing the desired method, please read the Drupal

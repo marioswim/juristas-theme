@@ -1,0 +1,19 @@
+.page-galeria .view-galeria .views-field-field-imagen
+{
+	max-height: 100px;
+	overflow: hidden;
+}
+.page-galeria .view-galeria .views-field-field-imagen img
+{
+	width: 100%;
+	height: auto;
+
+}
+
+
+
+.page-galeria .view-galeria .views-field-title,
+.page-galeria .view-galeria .views-field-php
+{
+	text-align: center;
+}
