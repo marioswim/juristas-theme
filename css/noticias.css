@@ -1,9 +1,9 @@
 /*---------Secciones---------------*/
 
-.page-violencia-de-genero .views-field-title,
-.page-igualdad-y-coeducacion .views-field-title,
-.page-inmigracion .views-field-title,
-.page-capm .views-field-title
+.page-violencia-de-genero .views-field-php,
+.page-igualdad-y-coeducacion .views-field-php,
+.page-inmigracion .views-field-php,
+.page-capm .views-field-php
 {
 	font-size: 1.4em;
 	font-weight: bolder;
@@ -17,4 +17,11 @@
 	font-size: 1.2em !important;
 	text-align: justify;
 
+}
+.page-violencia-de-genero .col,
+.page-igualdad-y-coeducacion .col,
+.page-inmigracion .col,
+.page-capm .col
+{
+	margin-bottom: 15px;
 }

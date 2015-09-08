@@ -1,0 +1,11 @@
+(function($) {
+	$(document).ready(function(){	
+		var img=true;
+		contactCSS($);
+		researchers($);
+		translationLinks($);
+		publicationOrcid($,img);
+		
+	});	
+
+})(jQuery);

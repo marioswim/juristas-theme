@@ -44,7 +44,7 @@ stylesheets[all][] = css/noticias.css
 ; ;; Scripts
 ; ;;;;;;;;;;;;;;;;;;;;;
 ; 
-; scripts[] = 'bootstrap/js/affix.js'
+  scripts[] = 'scripts/js.js'
 ; scripts[] = 'bootstrap/js/alert.js'
 ; scripts[] = 'bootstrap/js/button.js'
 ; scripts[] = 'bootstrap/js/carousel.js'

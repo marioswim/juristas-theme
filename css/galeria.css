@@ -17,3 +17,17 @@
 {
 	text-align: center;
 }
+.page-galeria .view-galeria .views-field-php
+{
+	margin-bottom: 10px;
+}
+
+
+.node-type-album .field.field-name-field-imagen img 
+{
+    width: 49%;
+    height: auto;
+    float: left;
+
+    margin: 0px 10px 10px 0px;
+}

@@ -67,7 +67,10 @@
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
-
+#first-time
+{
+	display: none;
+}
 
 @media (min-width:770px) and (max-width: 991px){
 	
@@ -162,11 +165,7 @@
 {
 	float: left;
 }
-.field.field-name-field-imagen img {
-    width: 50%;
-    height: auto;
-    float: left;
-}
+
 /*-----articulos------*/
 
 .page-node- .field-name-field-categoria .field-items a
@@ -235,4 +234,78 @@ margin-right: 2px;
 {
 	color: white;
 	font-size: 40px;
+}
+
+
+
+
+.page-documentos .views-field-php-1,
+.page-violencia-de-genero .views-field-php,
+.page-igualdad-y-coeducacion .views-field-php,
+.page-inmigracion .views-field-php,
+.page-capm .views-field-php,
+.front .views-field-php
+{
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+
+
+.page-documentos .views-field-php-1 a span,
+.page-violencia-de-genero .views-field-php a span,
+.page-igualdad-y-coeducacion .views-field-php a span,
+.page-inmigracion .views-field-php a span,
+.page-capm .views-field-php a span,
+.front .views-field-php a span
+{
+	
+	margin-left: -999em;
+    position: absolute;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+}
+.page-documentos .views-field-php-1 a:hover span,
+.page-violencia-de-genero .views-field-php a:hover span,
+.page-igualdad-y-coeducacion .views-field-php a:hover span,
+.page-inmigracion .views-field-php a:hover span,
+.page-capm .views-field-php a:hover span,
+.front .views-field-php a:hover span
+{
+	
+	
+	position: absolute; 
+	left: 7em; 
+	top: -2.5em; 
+	z-index: 99; 
+	margin-left: 0; 
+	padding: 5px 10px 5px 10px;
+}
+.page-documentos .views-field-php-1 a:hover span:before,
+.page-violencia-de-genero .views-field-php a:hover span:before,
+.page-igualdad-y-coeducacion .views-field-php a:hover span:before,
+.page-inmigracion .views-field-php a:hover span:before,
+.page-capm .views-field-php a:hover span:before,
+.front .views-field-php a:hover span:before
+{
+	bottom: -17px;
+    content: "";
+    left: 10%;
+    position: absolute;
+    z-index: 99;
+    /* el triángulo inferior */
+    border: black solid;
+    border-color: #6D6DA1 transparent;
+    border-width: 16px 16px 0 16px;
+}
+.classic
+{
+	background: #6D6DA1;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: 2px solid #6D6DA1;
 }
